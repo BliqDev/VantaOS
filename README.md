@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Img/vanta-logo.png" alt="Vanta OS logo" width="128">
+  <img src="assets/vanta-logo.png" alt="Vanta OS logo" width="128">
 </p>
 
 <h1 align="center">Vanta OS</h1>
