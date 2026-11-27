@@ -1,47 +1,47 @@
-@ -0,0 +1,46 @@
 <p align="center">
-  <img src="assets/vanta-logo.png" alt="Vanta OS logo" width="160">
+  <img src="assets/vanta-logo.png" alt="Vanta OS logo" width="128">
 </p>
 
-# Vanta OS
+<h1 align="center">Vanta OS</h1>
 
-Vanta OS is a desktop operating system built on Debian 13 (trixie) with the Xfce desktop. I'm building it for everyday use: browsing, files, media and some coding. It should also run well on older PCs.
+<p align="center">
+  A Debian-based desktop for everyday use, built around Xfce and a small set of essentials.
+</p>
 
-## Goals
+<p align="center">
+  <strong>Debian 13 “trixie”</strong> · <strong>Xfce</strong> · <strong>In development</strong>
+</p>
 
-1. Boot reliably, support common hardware and get updates from the official Debian repositories.
-2. Keep background load low so the desktop stays responsive.
-3. Ship a small set of apps with one program per task.
-4. Give it a consistent look: dark grey with purple accents, readable fonts, visible focus states.
+## Overview
 
-## Included apps
+Vanta OS is designed for browsing, managing files, playing media and writing code. The aim is a desktop that feels responsive on older hardware and gives you control over what runs in the background.
 
-| Task | App |
-|---|---|
-| Web | Firefox ESR |
-| Files | Thunar |
-| Text | Mousepad |
-| Terminal | Xfce Terminal |
-| Network | NetworkManager, with Wi-Fi in the panel |
-| Audio | PipeWire, with volume in the panel |
+The default setup keeps common tasks within reach. Network and volume controls live in the panel, everyday programs are easy to find, and additional software is available through APT. A charcoal theme with violet accents, readable text and visible keyboard focus gives the desktop its own identity.
 
-Office, games and developer tools are left out. You install what you need with APT.
+## Planned desktop
 
-## Roadmap
+| Task | Default |
+| --- | --- |
+| Browse the web | Firefox ESR |
+| Manage files | Thunar |
+| Edit text | Mousepad |
+| Use the command line | Xfce Terminal |
+| Connect to a network | NetworkManager with panel controls |
+| Manage audio | PipeWire with panel volume control |
 
-| Stage | Scope | Status |
-|---|---|---|
-| 1 | Live ISO that boots to the desktop | in progress |
-| 2 | Vanta theme and default apps | planned |
-| 3 | Installer | planned |
-| 4 | Performance comparison with Windows 10 | planned |
+The base system uses Debian’s official repositories for packages and security updates. Office suites, games and development tools are optional installs.
 
-There is no download yet. I'll publish speed comparisons once I have measured them on real hardware, with the method and raw numbers.
+## Development roadmap
 
-## Reference hardware
+| Stage | Milestone | Status |
+| --- | --- | --- |
+| 01 | Build a live ISO and verify that it boots to a usable Xfce desktop | In progress |
+| 02 | Integrate the Vanta theme, panel layout and default software | Planned |
+| 03 | Add an installer and verify that the installed system boots and updates | Planned |
+| 04 | Measure boot time, memory use and desktop responsiveness against Windows 10 | Planned |
 
-Intel Pentium G4560, NVIDIA GTX 1050 Ti, 8 GB RAM, SATA SSD.
+The first public milestone is a **bootable live ISO**. Once testing reaches physical hardware, performance results will include the test conditions, measurement method and raw numbers.
 
 ---
 
-Vanta OS uses Debian but is not affiliated with the Debian project.
+Vanta OS is an independent project based on Debian.
